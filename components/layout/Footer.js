@@ -45,7 +45,7 @@ const Footer = () => {
                             <div className="text-body-text color-gray-600">2232 Dell Range Blvd., Suite 245</div>
                             <div className="text-body-text color-gray-600">Cheyenne, WY 82009</div>
                             <div className="text-body-text color-gray-600 mb-20">United States</div>
-                            <div className="mt-20 text-body-text color-gray-600">myvisahub@protonmail.com</div>
+                            <div className="mt-20 text-body-text color-gray-600">myvisahub-online@proton.me</div>
                         </div>
                     </div>
                     <div className="footer-bottom mt-20">

@@ -25,7 +25,7 @@ function Contact() {
                                     <p className="text-body-text color-gray-600">2232 Dell Range Blvd., Suite 245</p>
                                     <p className="text-body-text color-gray-600">Cheyenne, WY 82009</p>
                                     <p className="text-body-text color-gray-600">United States</p>
-                                    <p className="text-body-text color-gray-600">myvisahub@protonmail.com</p>
+                                    <p className="text-body-text color-gray-600">myvisahub-online@proton.me</p>
                                 </div>
                                 <div className="col-lg-8">
                                     <div className="row">

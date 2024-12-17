@@ -13,7 +13,7 @@ function Home() {
                     <div className="container mt-40">
                     <div className="row">
                         <div className="col-lg-6 mt-30">
-                        <h1 className="text-display-4">Welcome to My Visa Hub</h1>
+                        <h1 className="text-display-4"><strong>Welcome to My Visa Hub</strong></h1>
                         </div>
                         <div className="col-lg-5 offset-xl-1 mt-30">
                         <p className="text-body-lead-large color-gray-500">Your one-stop solution to visas and passport renewal</p>
