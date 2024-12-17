@@ -24,9 +24,9 @@ function Terms() {
                                             <img className="img-responsive bdr-16" src="assets/imgs/page/blog/single/img-1.avif" alt="Agon" />
                                             <p>By using our services, you agree to abide by the following terms. These Terms of Service govern your access to and use of our website and the visa-related services we provide.</p>
                                             <h6 className="mt-35 mb-25">1. Definitions</h6>
-                                            <p>"We," "Our," and "Us" refer to www.myvisa-hub.com, including its team and representatives.</p>
-                                            <p>"You" or "User" refers to anyone accessing or utilizing our services.</p>
-                                            <p>"Services" includes visa application assistance, immigration consulting, and any related offerings provided by www.myvisa-hub.com.</p>
+                                            <p>&quot;We,&quot; &quot;Our,&quot; and &quot;Us&quot; refer to www.myvisa-hub.com, including its team and representatives.</p>
+                                            <p>&quot;You&quot; or &quot;User&quot; refers to anyone accessing or utilizing our services.</p>
+                                            <p>&quot;Services&quot; includes visa application assistance, immigration consulting, and any related offerings provided by www.myvisa-hub.com.</p>
                                             <h6 className="mt-35 mb-25">2. Services Provided</h6>
                                             <p>www.myvisa-hub.com offers support with visa applications, including guidance on document preparation, application assistance, and submission. However:</p>
                                             <ul className="terms-of-service_ul-disc">
@@ -77,7 +77,7 @@ function Terms() {
                                                 </li>
                                             </ul>
                                             <h6 className="mt-35 mb-25">9. Disclaimers</h6>
-                                            <p>Our services are offered "as is," without any warranties. Specifically:</p>
+                                            <p>Our services are offered &quot;as is,&quot; without any warranties. Specifically:</p>
                                             <ul className="terms-of-service_ul-disc">
                                                 <li><p>We do not guarantee the approval of your visa application.</p></li>
                                                 <li><p>We are not responsible for errors made by third parties, including embassies or courier services.</p></li>

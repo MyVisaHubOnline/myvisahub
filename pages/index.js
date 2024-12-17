@@ -86,7 +86,7 @@ function Home() {
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="card-grid-style-2 card-square hover-up mb-20">
-                            <p className="text-body-text color-gray-600 text-comment">Fantastic customer service! Whenever I've had questions or needed assistance, their team is incredibly fast and efficient in resolving issues.</p>
+                            <p className="text-body-text color-gray-600 text-comment">Fantastic customer service! Whenever I&apos;ve had questions or needed assistance, their team is incredibly fast and efficient in resolving issues.</p>
                             <div className="box-img-user">
                                 <h4 className="text-body-lead color-gray-900 mb-5">Emily Carter</h4>
                                 <p className="text-body-text-md">United States</p>
