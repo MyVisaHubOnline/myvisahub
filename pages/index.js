@@ -6,7 +6,7 @@ function Home() {
 
     return (
         <>
-            <Layout>
+            <Layout title="My Visa Hub">
                 <div className="page-homepage7-bg"></div>
                 <div className="section-box">
                 <div className="banner-hero banner-homepage6">

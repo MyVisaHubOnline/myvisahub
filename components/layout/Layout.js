@@ -3,8 +3,9 @@ import BackToTop from "../elements/BackToTop";
 import Footer from "./Footer";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
+import Head from 'next/head';
 
-const Layout = ({ children, headerStyle }) => {
+const Layout = ({ children, headerStyle, title = "My Visa Hub" }) => {
     const [openClass, setOpenClass] = useState('');
 
     const handleOpen = () => {
@@ -20,6 +21,9 @@ const Layout = ({ children, headerStyle }) => {
     }
     return (
         <>
+            <Head>
+                <title>{ title }</title>
+            </Head>
             <div  className={openClass && "body-overlay-1"} onClick={handleRemove} />
 
             <Header handleOpen={handleOpen} headerStyle={headerStyle} />
