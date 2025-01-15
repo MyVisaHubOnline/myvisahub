@@ -23,14 +23,14 @@ function About1() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
-                  <span className="tag-1 color-orange-900">
+                  <span className="tag-1 color-gray-900 bg-3">
                     Discover My Passport Hub
                   </span>
-                  <h1 className="text-display-3 mt-30">
+                  <h1 className="text-display-3 mt-30 color-white">
                     <strong>Welcome to My Passport Hub</strong>
                     {/* <p>Your Comprehensive Solution for Passport Renewals</p> */}
                   </h1>
-                  <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                  <p className="text-body-lead-large color-gray-300 mt-40 pr-40">
                     At My Passport Hub, we simplify travel preparation by
                     focusing exclusively on passport services. Our goal is to
                     streamline the process so you can concentrate on your
@@ -71,7 +71,7 @@ function About1() {
                 <div className="bd-bottom pb-20 mb-40 text-mb-center">
                   <div className="row">
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
-                      <span className="text-display-3 color-green-900">
+                      <span className="text-display-3 color-blue-300">
                         +<CounterUp count={12} time={3} />
                       </span>
                       <p className="text-body-text color-gray-500 pl-40t">
@@ -79,7 +79,7 @@ function About1() {
                       </p>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
-                      <span className="text-display-3 color-green-900">
+                      <span className="text-display-3 color-blue-300">
                         +<CounterUp count={70} time={3} />k
                       </span>
                       <p className="text-body-text color-gray-500 pl-40">
@@ -87,7 +87,7 @@ function About1() {
                       </p>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
-                      <span className="text-display-3 color-green-900">
+                      <span className="text-display-3 color-blue-300">
                         +<CounterUp count={22} time={3} />
                       </span>
                       <p className="text-body-text color-gray-500 pl-40">
@@ -95,7 +95,7 @@ function About1() {
                       </p>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
-                      <span className="text-display-3 color-green-900">
+                      <span className="text-display-3 color-blue-300">
                         +<CounterUp count={37} time={3} />k
                       </span>
                       <p className="text-body-text color-gray-500 pl-40">
@@ -115,7 +115,9 @@ function About1() {
               <div className="col-lg-1 col-sm-1 col-12" />
               <div className="col-lg-10 col-sm-10 col-12 text-center">
                 <div className="text-center mb-20">
-                  <span className="tag-1">Discover My Passport Hub</span>
+                  <span className="tag-1 color-gray-900 bg-3">
+                    Discover My Passport Hub
+                  </span>
                 </div>
                 <h2 className="text-display-3 color-gray-900 mb-60">
                   We’re a trusted provider of visa and passport services
@@ -213,7 +215,7 @@ function About1() {
         <section className="section-box mt-100">
           <div className="container">
             <div className="text-center mb-20">
-              <span className="tag-1 bg-6 color-green-900">
+              <span className="tag-1 color-gray-900 bg-3">
                 Discover My Passport Hub
               </span>
             </div>
@@ -231,7 +233,7 @@ function About1() {
           <div className="container mt-70">
             <div className="row">
               <div className="col-lg-4 col-sm-12">
-                <div className="card-grid-style-3 pb-40 bg-5 mb-30">
+                <div className="card-grid-style-3 bd-bg-blue pb-40 bg-blue-100 mb-30">
                   <div className="grid-1-img">
                     <img
                       src="/assets/imgs/page/homepage1/icon-01.png"
@@ -267,7 +269,7 @@ function About1() {
                 </div>
               </div>
               <div className="col-lg-4 col-sm-12">
-                <div className="card-grid-style-3 bg-2 pb-40 mb-30">
+                <div className="card-grid-style-3 bd-bg-blue bg-3 pb-40 mb-30">
                   <div className="grid-1-img">
                     <img
                       src="/assets/imgs/page/homepage1/icon-03.png"

@@ -14,10 +14,14 @@ function Home() {
                 <div className="col-lg-6 mt-30">
                   <h1 className="text-display-4">
                     <strong>Welcome to My Passport Hub</strong>
-                    <p>Your Comprehensive Solution for Passport Renewals</p>
                   </h1>
                 </div>
                 <div className="col-lg-5 offset-xl-1 mt-30">
+                  <p className="text-body-lead-large color-gray-500 mb-20 mt-10">
+                    <strong>
+                      Your Comprehensive Solution for Passport Renewals
+                    </strong>
+                  </p>
                   <p className="text-body-lead-large color-gray-500">
                     At My Passport Hub, we specialize in simplifying the
                     passport renewal process, ensuring you get your travel
@@ -55,7 +59,7 @@ function Home() {
                 <div className="pb-20 text-mb-center">
                   <div className="row">
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30 text-center">
-                      <span className="text-display-3 color-green-900">
+                      <span className="text-display-3 color-blue-300">
                         <span className="count">52</span>k+
                       </span>
                       <div className="text-body-quote">
@@ -63,19 +67,19 @@ function Home() {
                       </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30 text-center">
-                      <span className="text-display-3 color-green-900">
+                      <span className="text-display-3 color-blue-300">
                         <span className="count">21</span>k+
                       </span>
                       <div className="text-body-quote">Passports Renewed</div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30 text-center">
-                      <span className="text-display-3 color-green-900">
+                      <span className="text-display-3 color-blue-300">
                         <span className="count">98</span>k+
                       </span>
                       <div className="text-body-quote">Excellence Rate</div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30 text-center">
-                      <span className="text-display-3 color-green-900">
+                      <span className="text-display-3 color-blue-300">
                         <span className="count">61</span>k+
                       </span>
                       <div className="text-body-quote">Happy Customers</div>
@@ -87,36 +91,38 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="section-box pt-100 pb-100 mt-100 bg-6">
+        <div className="section-box pt-100 pb-100 mt-100 bg-blue-900">
           <div className="container">
             <div className="row">
               <div className="col-lg-5 mb-30">
                 <span className="tag-1 bg-3 color-gray-900">
                   Discover My Passport Hub
                 </span>
-                <h3 className="text-heading-1 mt-30">How It Works</h3>
-                <p className="text-body-lead-large color-gray-600 mt-30">
+                <h3 className="text-heading-1 mt-30 color-white">
+                  How It Works
+                </h3>
+                <p className="text-body-lead-large color-gray-300 mt-30">
                   Follow these simple steps to get started with My Passport Hub
                   and renew your passport:
                 </p>
                 <ol className="ol-number">
-                  <li className="text-body-lead-large color-gray-600 mt-30">
+                  <li className="text-body-lead-large color-gray-300 mt-30">
                     Submit a message through our contact form.
                   </li>
-                  <li className="text-body-lead-large color-gray-600 mt-30">
+                  <li className="text-body-lead-large color-gray-300 mt-30">
                     Specify the type of assistance you need.
                   </li>
-                  <li className="text-body-lead-large color-gray-600 mt-30">
+                  <li className="text-body-lead-large color-gray-300 mt-30">
                     An agent will reach out to you within 24 hours.
                   </li>
-                  <li className="text-body-lead-large color-gray-600 mt-30">
+                  <li className="text-body-lead-large color-gray-300 mt-30">
                     Create your profile and start enjoying My Passport Hub’s
                     services.
                   </li>
                 </ol>
                 <div className="mt-40">
                   <Link href="/page-contact" legacyBehavior>
-                    <a className="btn btn-default btn-white icon-arrow-right">
+                    <a className="btn btn-default btn-white icon-arrow-right-white bg-red-500 color-white">
                       Register Now
                     </a>
                   </Link>
@@ -200,7 +206,7 @@ function Home() {
                 <h3 className="text-heading-1 mt-30">Why Choose Us?</h3>
                 <div className="row">
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                    <p className="text-heading-1 color-green-900 mb-10">01</p>
+                    <p className="text-heading-1 color-blue-300 mb-10">01</p>
                     <h4 className="text-heading-6 icon-leaf">
                       Experienced travel agents
                     </h4>
@@ -209,14 +215,14 @@ function Home() {
                     </p>
                   </div>
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                    <p className="text-heading-1 color-green-900 mb-10">02</p>
+                    <p className="text-heading-1 color-blue-300 mb-10">02</p>
                     <h4 className="text-heading-6 icon-leaf">Fast response</h4>
                     <p className="text-body-excerpt color-gray-600 mt-15">
                       We’ll contact you in 24 hours or less.
                     </p>
                   </div>
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                    <p className="text-heading-1 color-green-900 mb-10">03</p>
+                    <p className="text-heading-1 color-blue-300 mb-10">03</p>
                     <h4 className="text-heading-6 icon-leaf">
                       Safe and secure
                     </h4>
@@ -225,7 +231,7 @@ function Home() {
                     </p>
                   </div>
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                    <p className="text-heading-1 color-green-900 mb-10">04</p>
+                    <p className="text-heading-1 color-blue-300 mb-10">04</p>
                     <h4 className="text-heading-6 icon-leaf">24/7 support</h4>
                     <p className="text-body-excerpt color-gray-600 mt-15">
                       Reach out to our team anytime you need assistance.

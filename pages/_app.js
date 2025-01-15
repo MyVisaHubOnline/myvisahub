@@ -1,8 +1,8 @@
-import '../public/assets/css/style.css'
-import '../public/assets/css/modal.css'
+import "../public/assets/css/style.css";
+import "../public/assets/css/modal.css";
 import "../public/assets/css/swiper-custom.css";
 import React, { useEffect, useState } from "react";
-import Preloader from '../components/elements/Preloader';
+import Preloader from "../components/elements/Preloader";
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
@@ -17,16 +17,7 @@ function MyApp({ Component, pageProps }) {
     }
     new WOW.WOW().init();
   }, []);
-  return (
-    <>
-      {!loading ? (
-        <Component {...pageProps} />
-      ) : (
-        <Preloader />
-      )}
-
-    </>
-  )
+  return <>{!loading ? <Component {...pageProps} /> : <Preloader />}</>;
 }
 
-export default MyApp
+export default MyApp;

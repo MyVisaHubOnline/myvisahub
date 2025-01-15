@@ -578,7 +578,7 @@ a {
 }
 
 .color-gray-500 {
-  color: #667085;
+  color: #666666;
 }
 
 .color-gray-400 {
@@ -590,7 +590,7 @@ a {
 }
 
 .color-gray-600 {
-  color: #475467;
+  color: #545454;
 }
 
 .color-gray-100 {
@@ -599,6 +599,37 @@ a {
 
 .color-white {
   color: #ffffff !important;
+}
+
+.color-blue-900 {
+  color: #032952 !important;
+}
+.color-blue-600 {
+  color: #4f6c92 !important;
+}
+.color-blue-300 {
+  color: #0656ac !important;
+}
+.color-blue-100 {
+  color: #bec9da !important;
+}
+.color-red-900 {
+  color: #b23d4a !important;
+}
+.color-red-600 {
+  color: #c45461 !important;
+}
+.color-red-500 {
+  color: #c80505 !important;
+}
+.color-red-300 {
+  color: #d17a84 !important;
+}
+.color-red-100 {
+  color: #ebc6ca !important;
+}
+.color-light-blue {
+  color: #e4e2fd !important;
 }
 
 .bg-1 {
@@ -614,7 +645,7 @@ a {
 }
 
 .bg-3 {
-  background-color: #fde2e4 !important;
+  background-color: #e4e2f5 !important;
 }
 
 .bg-4 {
@@ -651,6 +682,34 @@ a {
 
 .bg-gray-100 {
   background-color: #f2f4f7 !important;
+}
+
+.bg-blue-900 {
+  background-color: #032952 !important;
+}
+.bg-blue-600 {
+  background-color: #4f6c92 !important;
+}
+.bg-blue-300 {
+  background-color: #0656ac !important;
+}
+.bg-blue-100 {
+  background-color: #bec9da !important;
+}
+.bg-red-900 {
+  background-color: #b23d4a !important;
+}
+.bg-red-600 {
+  background-color: #c45461 !important;
+}
+.bg-red-500 {
+  background-color: #c80505 !important;
+}
+.bg-red-300 {
+  background-color: #d17a84 !important;
+}
+.bg-red-100 {
+  background-color: #ebc6ca !important;
 }
 
 .text-billed {
@@ -2144,6 +2203,13 @@ label {
 .card-grid-style-3.bd-bg-9 {
   border-color: #d1ecfd;
 }
+.card-grid-style-3.bd-bg-blue {
+  /* border-color: #4f6c92; */
+  border-color: #ebfaff;
+}
+.card-grid-style-3.bd-bg-red {
+  border-color: #c80505;
+}
 
 .card-grid-style-4 {
   margin-bottom: 30px;
@@ -3320,7 +3386,8 @@ label {
   background-size: auto;
 }
 .banner-hero.banner-breadcrums {
-  background-color: #fff3ea;
+  /* background-color: #fff3ea; */
+  background-color: #eae4e9;
   padding: 48px 0px;
 }
 .banner-hero.banner-head-image {
@@ -6151,6 +6218,7 @@ label {
 .icon-leaf {
   background: url(../imgs/page/homepage1/icon-leaf.svg) no-repeat 0px 2px;
   padding: 0px 0px 0px 28px;
+  mix-blend-mode: luminosity;
 }
 
 .bdrd-16 {
@@ -9438,4 +9506,3 @@ header.header.sticky-bar {
   list-style: decimal;
   list-style-position: inside;
 }
-/*# sourceMappingURL=style.css.map */
