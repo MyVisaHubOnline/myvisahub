@@ -69,21 +69,23 @@ function Faq() {
                   </li>
                   <li>
                     <h3 className="text-heading-5 mb-10">
+                      How do I know if I need a visa for my trip?
+                    </h3>
+                    <p className="text-body-text color-gray-500">
+                      You can easily find out the visa requirements for your
+                      destination by contacting our travel experts. They’ll
+                      advise you on the official visa requirements and help you
+                      get started with the application process.
+                    </p>
+                  </li>
+                  <li>
+                    <h3 className="text-heading-5 mb-10">
                       Is My Passport Hub reliable?
                     </h3>
                     <p className="text-body-text color-gray-500">
                       With years of experience assisting travelers, My Passport
                       Hub offers a safe and secure option for obtaining your
                       travel documents, supported by 24/7 customer service.
-                    </p>
-                  </li>
-                  <li>
-                    <h3 className="text-heading-5 mb-10">
-                      Need more information?
-                    </h3>
-                    <p className="text-body-text color-gray-500">
-                      If you have further questions, please fill out our contact
-                      form, and we'll respond within 72 hours.
                     </p>
                   </li>
                 </ul>
@@ -94,8 +96,8 @@ function Faq() {
             <div className="container text-center">
               <h3 className="text-heading-1 mb-10">Need more information?</h3>
               <p className="text-body-lead-large color-gray-600 mt-30">
-                If you still need to speak to our team, simply fill in the
-                contact form and we’ll get back to you within 72 hours.
+                If you have further questions, please fill out our contact form,
+                and we'll respond within 72 hours.
               </p>
             </div>
             <div className="container mt-70"></div>
