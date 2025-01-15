@@ -9433,4 +9433,9 @@ header.header.sticky-bar {
 .terms-of-service_ul-disc li {
   margin-left: 20px;
 }
+
+.ol-number {
+  list-style: decimal;
+  list-style-position: inside;
+}
 /*# sourceMappingURL=style.css.map */

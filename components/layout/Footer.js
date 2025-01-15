@@ -60,7 +60,7 @@ const Footer = () => {
                 United States
               </div>
               <div className="mt-20 text-body-text color-gray-600">
-                info@myvisahub-online.com
+                info@mypassporthub.com
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-12">
                 <span className="color-gray-400 text-body-lead">
-                  © My Visa Hub 2024
+                  © My Passport Hub 2024
                 </span>
                 <Link href="/page-terms" legacyBehavior>
                   <a className="text-body-text color-gray-400 ml-50">
@@ -85,13 +85,13 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-12">
                 <div className="text-body-text color-gray-400 mt-40">
-                  Disclaimer
+                  Legal Notice
                 </div>
                 <div className="text-body-text color-gray-400 mb-20">
-                  www.myvisahub-online.com is a visa agency, not connected to
-                  any government. Our offerings include help with preparing and
-                  submitting applications related to visas and passport
-                  services.
+                  https://www.mypassporthub.com is a private company not
+                  affiliated with the U.S. Government. Our services include
+                  assistance with the preparation and submission of
+                  passport-related applications.
                 </div>
               </div>
             </div>
