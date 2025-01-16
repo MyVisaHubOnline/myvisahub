@@ -19,7 +19,8 @@ function Home() {
                 <div className="col-lg-5 offset-xl-1 mt-30">
                   <p className="text-body-lead-large color-gray-500 mb-20 mt-10">
                     <strong>
-                      Your Comprehensive Solution for Passport Renewals
+                      Your Comprehensive Solution for Passport Renewals and
+                      Visas
                     </strong>
                   </p>
                   <p className="text-body-lead-large color-gray-500">
@@ -321,9 +322,12 @@ function Home() {
         </div>
         <div className="section-box mt-140 passport-services">
           <div className="container text-center">
-            <h2 className="text-heading-1 color-gray-900">Passport Services</h2>
+            <h2 className="text-heading-1 color-gray-900">
+              Passport & Visa Services
+            </h2>
             <p className="text-body-lead-large color-gray-600 mt-20">
-              We handle passport renewals for various situations, including:
+              We handle passport and visa renewals for various situations,
+              including:
             </p>
           </div>
           <div className="container list-category-homepage7 mt-70">
@@ -344,7 +348,7 @@ function Home() {
                     <img src="/assets/imgs/page/homepage7/img-cat-6.png" />
                   </div>
                   <p className="text-center text-heading-5 color-gray-900">
-                    Lost or stolen passports
+                    Visa Renewal
                   </p>
                 </div>
               </div>
@@ -354,7 +358,7 @@ function Home() {
                     <img src="/assets/imgs/page/homepage7/img-cat-7.png" />
                   </div>
                   <p className="text-center text-heading-5 color-gray-900">
-                    Damaged passports
+                    Lost or stolen passports
                   </p>
                 </div>
               </div>
