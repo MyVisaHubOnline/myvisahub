@@ -80,7 +80,8 @@ function About1() {
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
                       <span className="text-display-3 color-blue-300">
-                        +<CounterUp count={700} time={3} />k
+                        <CounterUp count={700} time={3} />
+                        k+
                       </span>
                       <p className="text-body-text color-gray-500 pl-40">
                         Passports processed
@@ -88,7 +89,8 @@ function About1() {
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
                       <span className="text-display-3 color-blue-300">
-                        +<CounterUp count={600} time={3} />k
+                        <CounterUp count={600} time={3} />
+                        k+
                       </span>
                       <p className="text-body-text color-gray-500 pl-40">
                         Satisfied customers
@@ -96,7 +98,8 @@ function About1() {
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
                       <span className="text-display-3 color-blue-300">
-                        +<CounterUp count={1000} time={3} />k
+                        <CounterUp count={1000} time={3} />
+                        k+
                       </span>
                       <p className="text-body-text color-gray-500 pl-40">
                         Hours saved
@@ -120,7 +123,7 @@ function About1() {
                   </span>
                 </div>
                 <h2 className="text-display-3 color-gray-900 mb-60">
-                  Your Comprehensive Solution for Passport Services
+                  Your Comprehensive Solution for Passport & Visa Services
                 </h2>
               </div>
               <div className="col-lg-1 col-sm-1 col-12" />

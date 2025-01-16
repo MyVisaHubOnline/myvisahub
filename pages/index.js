@@ -61,29 +61,27 @@ function Home() {
                   <div className="row">
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30 text-center">
                       <span className="text-display-3 color-blue-300">
-                        <span className="count">52</span>k+
+                        <span className="count">+10</span>
                       </span>
-                      <div className="text-body-quote">
-                        Travel Documents Submitted
-                      </div>
+                      <div className="text-body-quote">Years in Business</div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30 text-center">
                       <span className="text-display-3 color-blue-300">
-                        <span className="count">21</span>k+
+                        <span className="count">700</span>k+
                       </span>
-                      <div className="text-body-quote">Passports Renewed</div>
+                      <div className="text-body-quote">Passports processed</div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30 text-center">
                       <span className="text-display-3 color-blue-300">
-                        <span className="count">98</span>k+
+                        <span className="count">600</span>k+
                       </span>
-                      <div className="text-body-quote">Excellence Rate</div>
+                      <div className="text-body-quote">Satisfied customers</div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30 text-center">
                       <span className="text-display-3 color-blue-300">
-                        <span className="count">61</span>k+
+                        <span className="count">1000</span>k+
                       </span>
-                      <div className="text-body-quote">Happy Customers</div>
+                      <div className="text-body-quote">Hours saved</div>
                     </div>
                   </div>
                 </div>
