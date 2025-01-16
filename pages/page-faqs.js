@@ -52,8 +52,8 @@ function Faq() {
                         leads to successful outcomes.
                       </li>
                       <li>
-                        <strong>24/7 support:</strong> We're available around
-                        the clock to address your concerns.
+                        <strong>24/7 support:</strong> We&apos;re available
+                        around the clock to address your concerns.
                       </li>
                     </ul>
                   </li>
@@ -97,7 +97,7 @@ function Faq() {
               <h3 className="text-heading-1 mb-10">Need more information?</h3>
               <p className="text-body-lead-large color-gray-600 mt-30">
                 If you have further questions, please fill out our contact form,
-                and we'll respond within 72 hours.
+                and we&apos;ll respond within 72 hours.
               </p>
             </div>
             <div className="container mt-70"></div>
