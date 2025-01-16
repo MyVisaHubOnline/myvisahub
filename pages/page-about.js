@@ -72,7 +72,7 @@ function About1() {
                   <div className="row">
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
                       <span className="text-display-3 color-blue-300">
-                        +<CounterUp count={12} time={3} />
+                        +<CounterUp count={10} time={3} />
                       </span>
                       <p className="text-body-text color-gray-500 pl-40t">
                         Years in Business
@@ -80,26 +80,26 @@ function About1() {
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
                       <span className="text-display-3 color-blue-300">
-                        +<CounterUp count={70} time={3} />k
+                        +<CounterUp count={700} time={3} />k
                       </span>
                       <p className="text-body-text color-gray-500 pl-40">
-                        Profiles created
+                        Passports processed
                       </p>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
                       <span className="text-display-3 color-blue-300">
-                        +<CounterUp count={22} time={3} />
+                        +<CounterUp count={600} time={3} />k
                       </span>
                       <p className="text-body-text color-gray-500 pl-40">
-                        Nationalities attended
+                        Satisfied customers
                       </p>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-30">
                       <span className="text-display-3 color-blue-300">
-                        +<CounterUp count={37} time={3} />k
+                        +<CounterUp count={1000} time={3} />k
                       </span>
                       <p className="text-body-text color-gray-500 pl-40">
-                        Recurring customers
+                        Hours saved
                       </p>
                     </div>
                   </div>
@@ -120,7 +120,7 @@ function About1() {
                   </span>
                 </div>
                 <h2 className="text-display-3 color-gray-900 mb-60">
-                  We’re a trusted provider of visa and passport services
+                  Your Comprehensive Solution for Passport Services
                 </h2>
               </div>
               <div className="col-lg-1 col-sm-1 col-12" />
