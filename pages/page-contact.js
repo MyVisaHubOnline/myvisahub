@@ -36,6 +36,9 @@ function Contact() {
                     Cheyenne, WY 82009
                   </p>
                   <p className="text-body-text color-gray-300">United States</p>
+                  <p className="mt-20 text-body-text color-gray-300">
+                    Call us: +1 833 947 2842
+                  </p>
                   <p className="text-body-text color-gray-300">
                     info@mypassporthub.com
                   </p>

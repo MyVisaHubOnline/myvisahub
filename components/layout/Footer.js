@@ -60,6 +60,9 @@ const Footer = () => {
                 United States
               </div>
               <div className="mt-20 text-body-text color-gray-600">
+                Call us: +1 833 947 2842
+              </div>
+              <div className="text-body-text color-gray-600">
                 info@mypassporthub.com
               </div>
             </div>
