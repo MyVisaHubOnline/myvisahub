@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="col-lg-3 width-20 mb-30">
               <h4 className="text-heading-5">Contact</h4>
               <div className="mt-20 text-heading-6 color-gray-900">
-                <b>Passports and Visas LLC</b>
+                <b>Passports and Visas</b>
               </div>
               <div className="text-body-text color-gray-600">
                 2232 Dell Range Blvd., Suite 245
