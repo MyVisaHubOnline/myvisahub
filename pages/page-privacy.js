@@ -132,20 +132,6 @@ function Terms() {
                       <ul className="terms-of-service_ul-disc">
                         <li>
                           <p>
-                            <strong>With immigration authorities</strong>: To
-                            submit your visa application and relevant documents.
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            <strong>With service providers</strong>: Trusted
-                            third-party partners who assist in processing your
-                            application, such as payment processors or courier
-                            services.
-                          </p>
-                        </li>
-                        <li>
-                          <p>
                             <strong>When required by law</strong>: If we are
                             legally obligated to disclose your data to
                             authorities, courts, or law enforcement.
@@ -315,30 +301,9 @@ function Terms() {
                         If we learn that we have inadvertently collected such
                         data, we will take immediate steps to delete it.
                       </p>
-                      <h6 className="mt-35 mb-25" style={{ color: "#e29578" }}>
-                        10. International Data Transfers
-                      </h6>
-                      <p style={{ color: "#e29578" }}>
-                        As an international service provider, we may transfer
-                        your information to countries outside your home
-                        jurisdiction. In these cases:
-                      </p>
-                      <ul className="terms-of-service_ul-disc">
-                        <li>
-                          <p style={{ color: "#e29578" }}>
-                            We ensure that data protection standards comply with
-                            relevant laws.
-                          </p>
-                        </li>
-                        <li>
-                          <p style={{ color: "#e29578" }}>
-                            By using our services, you consent to these
-                            international transfers.
-                          </p>
-                        </li>
-                      </ul>
+
                       <h6 className="mt-35 mb-25">
-                        11. Legal Basis for Processing
+                        10. Legal Basis for Processing
                       </h6>
                       <p>We process your data based on:</p>
                       <ul className="terms-of-service_ul-disc">
@@ -372,7 +337,7 @@ function Terms() {
                         us.
                       </p>
                       <h6 className="mt-35 mb-25">
-                        12. Updates to This Policy
+                        11. Updates to This Policy
                       </h6>
                       <p>
                         We may update this Privacy Policy from time to time. Any
@@ -381,7 +346,7 @@ function Terms() {
                         review this policy periodically to stay informed about
                         how we handle your data.
                       </p>
-                      <h6 className="mt-35 mb-25">13. Contact Us</h6>
+                      <h6 className="mt-35 mb-25">12. Contact Us</h6>
                       <p>
                         If you have any questions, concerns, or complaints
                         regarding this Privacy Policy or how your data is used,

@@ -19,8 +19,7 @@ function Home() {
                 <div className="col-lg-5 offset-xl-1 mt-30">
                   <p className="text-body-lead-large color-gray-500 mb-20 mt-10">
                     <strong>
-                      Your Comprehensive Solution for Passport Renewals and
-                      Visas
+                      Your Comprehensive Solution for Passport Renewals
                     </strong>
                   </p>
                   <p className="text-body-lead-large color-gray-500">
@@ -241,91 +240,11 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="section-box mt-140">
-          <div className="container text-center">
-            <h2 className="text-heading-1 color-gray-900">Our Destinations</h2>
-            <p className="text-body-lead-large color-gray-600 mt-20">
-              We have even more options available—register now to access to all
-              of them.
-            </p>
-          </div>
-          <div className="container list-category-homepage7 mt-70">
-            <div className="row">
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <div className="grid-category-2">
-                  <div className="grid-category-image">
-                    <Link href="#" legacyBehavior>
-                      <a>
-                        <img src="/assets/imgs/page/homepage7/img-cat-1.jpg" />
-                      </a>
-                    </Link>
-                  </div>
-                  <Link href="#" legacyBehavior>
-                    <a className="text-heading-5 color-gray-900">
-                      Australia eVisitor, eTA & Passport Renewal
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <div className="grid-category-2">
-                  <div className="grid-category-image">
-                    <Link href="#" legacyBehavior>
-                      <a>
-                        <img src="/assets/imgs/page/homepage7/img-cat-2.jpg" />
-                      </a>
-                    </Link>
-                  </div>
-                  <Link href="#" legacyBehavior>
-                    <a className="text-heading-5 color-gray-900">
-                      Canada eTA & Passport Renewal
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <div className="grid-category-2">
-                  <div className="grid-category-image">
-                    <Link href="#" legacyBehavior>
-                      <a>
-                        <img src="/assets/imgs/page/homepage7/img-cat-3.jpg" />
-                      </a>
-                    </Link>
-                  </div>
-                  <Link href="#" legacyBehavior>
-                    <a className="text-heading-5 color-gray-900">
-                      United States: ESTA & Passport Renewal
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <div className="grid-category-2">
-                  <div className="grid-category-image">
-                    <Link href="#" legacyBehavior>
-                      <a>
-                        <img src="/assets/imgs/page/homepage7/img-cat-4.jpg" />
-                      </a>
-                    </Link>
-                  </div>
-                  <Link href="#" legacyBehavior>
-                    <a className="text-heading-5 color-gray-900">
-                      Indonesia: eVOA, eCD, Bali Visa & Passport Renewal
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="section-box mt-140 passport-services">
           <div className="container text-center">
-            <h2 className="text-heading-1 color-gray-900">
-              Passport & Visa Services
-            </h2>
+            <h2 className="text-heading-1 color-gray-900">Passport Services</h2>
             <p className="text-body-lead-large color-gray-600 mt-20">
-              We handle passport and visa renewals for various situations,
-              including:
+              We handle passport renewals for various situations, including:
             </p>
           </div>
           <div className="container list-category-homepage7 mt-70">
@@ -346,7 +265,7 @@ function Home() {
                     <img src="/assets/imgs/page/homepage7/img-cat-6.png" />
                   </div>
                   <p className="text-center text-heading-5 color-gray-900">
-                    Visa Renewal
+                    Lost or stolen passports
                   </p>
                 </div>
               </div>
@@ -356,7 +275,7 @@ function Home() {
                     <img src="/assets/imgs/page/homepage7/img-cat-7.png" />
                   </div>
                   <p className="text-center text-heading-5 color-gray-900">
-                    Lost or stolen passports
+                    Damaged passports
                   </p>
                 </div>
               </div>

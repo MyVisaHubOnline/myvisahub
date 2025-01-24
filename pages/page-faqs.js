@@ -69,17 +69,6 @@ function Faq() {
                   </li>
                   <li>
                     <h3 className="text-heading-5 mb-10">
-                      How do I know if I need a visa for my trip?
-                    </h3>
-                    <p className="text-body-text color-gray-500">
-                      You can easily find out the visa requirements for your
-                      destination by contacting our travel experts. They’ll
-                      advise you on the official visa requirements and help you
-                      get started with the application process.
-                    </p>
-                  </li>
-                  <li>
-                    <h3 className="text-heading-5 mb-10">
                       Is My Passport Hub reliable?
                     </h3>
                     <p className="text-body-text color-gray-500">

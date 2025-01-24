@@ -12,7 +12,7 @@ function Contact() {
               </h1>
               <p className="text-body-text color-gray-500">
                 Contact us and our customer service team will attend you and
-                create your profile in our Visa & Passport portal.
+                create your profile in our Passport portal.
               </p>
               <p className="text-body-text color-gray-500">
                 Attention 24/7 during all year in multiple languages.

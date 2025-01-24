@@ -123,7 +123,7 @@ function About1() {
                   </span>
                 </div>
                 <h2 className="text-display-3 color-gray-900 mb-60">
-                  Your Comprehensive Solution for Passport & Visa Services
+                  Your Comprehensive Solution for Passport Services
                 </h2>
               </div>
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -244,13 +244,14 @@ function About1() {
                     />
                   </div>
                   <h3 className="text-heading-3 mt-20">
-                    Comprehensive Visa Services
+                    Comprehensive Passport Services
                   </h3>
                   <p className="text-body-excerpt mt-20">
-                    Our expert team provides guidance for all types of visas,
-                    helping you meet your destination’s requirements and
-                    ensuring smooth processing.
+                    Our expert team provides guidance for all passports
+                    procedures, helping you meet your requirements and ensuring
+                    smooth processing.
                   </p>
+                  <br />
                 </div>
               </div>
               <div className="col-lg-4 col-sm-12">
