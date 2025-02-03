@@ -27,7 +27,7 @@ function Contact() {
                 <div className="col-lg-12 mb-150"></div>
                 <div className="col-lg-4 mb-40">
                   <h4 className="text-heading-6 color-white mb-10 mt-10">
-                    Online Immigration SL dba Passports and Visas
+                    Online Immigration SL <br /> dba Passports and Visas
                   </h4>
                   <p className="text-body-text color-gray-300">
                     2232 Dell Range Blvd., Suite 245
