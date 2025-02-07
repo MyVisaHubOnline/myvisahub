@@ -3540,7 +3540,7 @@ label {
 .header .main-header .header-left .header-nav {
   display: inline-block;
   width: 100%;
-  text-align: center;
+  text-align: right;
 }
 .header .main-header .header-right {
   max-width: 225px;
