@@ -30,11 +30,6 @@ const Header = ({ handleOpen, headerStyle }) => {
               <div className="header-logo">
                 <Link href="/" legacyBehavior>
                   <a className="d-flex">
-                    {/* {headerStyle ? (
-                      <img alt="Agon" src="/assets/imgs/template/logo.png" />
-                    ) : (
-                      <img alt="Agon" src="/assets/imgs/template/logo.png" />
-                    )} */}
                     <Image
                       src="/assets/imgs/template/logo.png"
                       alt="My-passport-hub"
@@ -55,7 +50,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </li>
                       <li>
                         <Link
-                          href="https://app.mypassporthub.com/page-about"
+                          href="https://app.mypassporthub.com/about-us"
                           legacyBehavior
                         >
                           <a
@@ -69,7 +64,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </li>
                       <li>
                         <Link
-                          href="https://app.mypassporthub.com/page-faqs"
+                          href="https://app.mypassporthub.com/faq"
                           legacyBehavior
                         >
                           <a
@@ -83,7 +78,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                       </li>
                       <li>
                         <Link
-                          href="https://app.mypassporthub.com/page-contact"
+                          href="https://app.mypassporthub.com/contact"
                           legacyBehavior
                         >
                           <a
@@ -103,7 +98,10 @@ const Header = ({ handleOpen, headerStyle }) => {
             <div className="header-right">
               <div className="block-signin">
                 {pathname !== "/page-contact" && (
-                  <Link href="https://app.mypassporthub.com/" legacyBehavior>
+                  <Link
+                    href="https://app.mypassporthub.com/home"
+                    legacyBehavior
+                  >
                     <a
                       className="btn btn-default hover-up icon-arrow-right"
                       rel="noopener noreferrer"

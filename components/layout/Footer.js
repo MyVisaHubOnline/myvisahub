@@ -29,7 +29,10 @@ const Footer = () => {
                     <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">
                       Ready to get started?
                     </span>
-                    <Link href="https://app.mypassporthub.com" legacyBehavior>
+                    <Link
+                      href="https://app.mypassporthub.com/home"
+                      legacyBehavior
+                    >
                       <a
                         className="btn btn-square"
                         rel="noopener noreferrer"
@@ -42,7 +45,10 @@ const Footer = () => {
                 )}
                 {pathname === "/page-faqs" && (
                   <>
-                    <Link href="https://app.mypassporthub.com" legacyBehavior>
+                    <Link
+                      href="https://app.mypassporthub.com/home"
+                      legacyBehavior
+                    >
                       <a
                         className="btn btn-square"
                         rel="noopener noreferrer"
@@ -86,7 +92,7 @@ const Footer = () => {
                   © My Passport Hub 2024
                 </span>
                 <Link
-                  href="https://app.mypassporthub.com/page-terms"
+                  href="https://app.mypassporthub.com/terms-and-conditions"
                   legacyBehavior
                 >
                   <a
@@ -98,7 +104,7 @@ const Footer = () => {
                   </a>
                 </Link>
                 <Link
-                  href="https://app.mypassporthub.com/page-privacy"
+                  href="https://app.mypassporthub.com/privacy-policy"
                   legacyBehavior
                 >
                   <a

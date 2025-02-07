@@ -9,50 +9,6 @@ function Home() {
       <Layout title="My Passport Hub">
         <div className="page-homepage7-bg"></div>
         <FormCards />
-        {/* <div className="section-box">
-          <div className="banner-hero banner-homepage6">
-            <div className="container mt-40">
-              <div className="row">
-                <div className="col-lg-6 mt-30">
-                  <h1 className="text-display-4">
-                    <strong>Welcome to My Passport Hub</strong>
-                  </h1>
-                </div>
-                <div className="col-lg-5 offset-xl-1 mt-30">
-                  <p className="text-body-lead-large color-gray-500 mb-20 mt-10">
-                    <strong>
-                      Your Comprehensive Solution for Passport Renewals
-                    </strong>
-                  </p>
-                  <p className="text-body-lead-large color-gray-500">
-                    At My Passport Hub, we specialize in simplifying the
-                    passport renewal process, ensuring you get your travel
-                    documents quickly and securely.
-                  </p>
-                  <div className="mt-40">
-                    <Link href="/page-contact" legacyBehavior>
-                      <a className="btn btn-black shape-square icon-arrow-right-white">
-                        Register
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* <div className="section-box mt-100 jumbo-images">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-7">
-                <img src="/assets/imgs/page/homepage7/banner-1.webp" />
-              </div>
-              <div className="col-lg-5">
-                <img src="/assets/imgs/page/homepage7/banner-2.jpeg" />
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="section-box mt-100">
           <div className="container">
             <div className="row">
@@ -127,7 +83,10 @@ function Home() {
                   </li>
                 </ol>
                 <div className="mt-40">
-                  <Link href="https://app.mypassporthub.com" legacyBehavior>
+                  <Link
+                    href="https://app.mypassporthub.com/home"
+                    legacyBehavior
+                  >
                     <a
                       className="btn btn-default btn-white icon-arrow-right-white bg-red-500 color-white"
                       rel="noopener noreferrer"
