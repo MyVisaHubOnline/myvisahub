@@ -1,13 +1,15 @@
 import Link from "next/link";
 import { useState } from "react";
 import Layout from "../components/layout/Layout";
+import FormCards from "../components/FormCards/index";
 
 function Home() {
   return (
     <>
       <Layout title="My Passport Hub">
         <div className="page-homepage7-bg"></div>
-        <div className="section-box">
+        <FormCards />
+        {/* <div className="section-box">
           <div className="banner-hero banner-homepage6">
             <div className="container mt-40">
               <div className="row">
@@ -38,8 +40,8 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="section-box mt-100 jumbo-images">
+        </div> */}
+        {/* <div className="section-box mt-100 jumbo-images">
           <div className="container">
             <div className="row">
               <div className="col-lg-7">
@@ -50,7 +52,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="section-box mt-100">
           <div className="container">
             <div className="row">
@@ -105,23 +107,33 @@ function Home() {
                 </p>
                 <ol className="ol-number">
                   <li className="text-body-lead-large color-gray-300 mt-30">
-                    Submit a message through our contact form.
+                    <strong>Select your form:</strong> Choose the passport form
+                    that best meets your needs
                   </li>
                   <li className="text-body-lead-large color-gray-300 mt-30">
-                    Specify the type of assistance you need.
+                    <strong>Fill it out online: </strong> Complete your form
+                    using our pro online wizard!
                   </li>
                   <li className="text-body-lead-large color-gray-300 mt-30">
-                    An agent will reach out to you within 24 hours.
+                    <strong>Professional revision: </strong> Your document will
+                    be revised by our experienced experts to ensure maximum
+                    optimization.
                   </li>
                   <li className="text-body-lead-large color-gray-300 mt-30">
-                    Create your profile and start enjoying My Passport Hub’s
-                    services.
+                    <strong>Receive and Print: </strong> Once you get your
+                    expertly reviewed document, you can simply print it and mail
+                    it in/deliver it to a passport office depending on your
+                    needs.
                   </li>
                 </ol>
                 <div className="mt-40">
-                  <Link href="/page-contact" legacyBehavior>
-                    <a className="btn btn-default btn-white icon-arrow-right-white bg-red-500 color-white">
-                      Register Now
+                  <Link href="https://app.mypassporthub.com" legacyBehavior>
+                    <a
+                      className="btn btn-default btn-white icon-arrow-right-white bg-red-500 color-white"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Start Now
                     </a>
                   </Link>
                 </div>
@@ -206,10 +218,11 @@ function Home() {
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">
                     <p className="text-heading-1 color-blue-300 mb-10">01</p>
                     <h4 className="text-heading-6 icon-leaf">
-                      Experienced travel agents
+                      Simple, intuitive application form
                     </h4>
                     <p className="text-body-excerpt color-gray-600 mt-15">
-                      Our experts guide you through every step of the process.
+                      Easy step-by-step instructions and comprehensive error
+                      checking.
                     </p>
                   </div>
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">

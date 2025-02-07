@@ -29,15 +29,27 @@ const Footer = () => {
                     <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">
                       Ready to get started?
                     </span>
-                    <Link href="/page-contact" legacyBehavior>
-                      <a className="btn btn-square">Register</a>
+                    <Link href="https://app.mypassporthub.com" legacyBehavior>
+                      <a
+                        className="btn btn-square"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        Start now
+                      </a>
                     </Link>
                   </>
                 )}
                 {pathname === "/page-faqs" && (
                   <>
-                    <Link href="/page-contact" legacyBehavior>
-                      <a className="btn btn-square">Get in Touch</a>
+                    <Link href="https://app.mypassporthub.com" legacyBehavior>
+                      <a
+                        className="btn btn-square"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        Get in Touch
+                      </a>
                     </Link>
                   </>
                 )}
@@ -73,13 +85,27 @@ const Footer = () => {
                 <span className="color-gray-400 text-body-lead">
                   © My Passport Hub 2024
                 </span>
-                <Link href="/page-terms" legacyBehavior>
-                  <a className="text-body-text color-gray-400 ml-50">
+                <Link
+                  href="https://app.mypassporthub.com/page-terms"
+                  legacyBehavior
+                >
+                  <a
+                    className="text-body-text color-gray-400 ml-50"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     Terms of Service
                   </a>
                 </Link>
-                <Link href="/page-privacy" legacyBehavior>
-                  <a className="text-body-text color-gray-400 ml-50">
+                <Link
+                  href="https://app.mypassporthub.com/page-privacy"
+                  legacyBehavior
+                >
+                  <a
+                    className="text-body-text color-gray-400 ml-50"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     Privacy Policy
                   </a>
                 </Link>

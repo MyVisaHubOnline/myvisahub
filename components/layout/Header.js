@@ -54,18 +54,45 @@ const Header = ({ handleOpen, headerStyle }) => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/page-about" legacyBehavior>
-                          <a className="active">About Us</a>
+                        <Link
+                          href="https://app.mypassporthub.com/page-about"
+                          legacyBehavior
+                        >
+                          <a
+                            className="active"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            About Us
+                          </a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/page-faqs" legacyBehavior>
-                          <a className="active">FAQs</a>
+                        <Link
+                          href="https://app.mypassporthub.com/page-faqs"
+                          legacyBehavior
+                        >
+                          <a
+                            className="active"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            FAQs
+                          </a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/page-contact" legacyBehavior>
-                          <a className="active">Contact Us</a>
+                        <Link
+                          href="https://app.mypassporthub.com/page-contact"
+                          legacyBehavior
+                        >
+                          <a
+                            className="active"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            Contact Us
+                          </a>
                         </Link>
                       </li>
                     </ul>
@@ -76,8 +103,12 @@ const Header = ({ handleOpen, headerStyle }) => {
             <div className="header-right">
               <div className="block-signin">
                 {pathname !== "/page-contact" && (
-                  <Link href="/page-contact" legacyBehavior>
-                    <a className="btn btn-default hover-up icon-arrow-right">
+                  <Link href="https://app.mypassporthub.com/" legacyBehavior>
+                    <a
+                      className="btn btn-default hover-up icon-arrow-right"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       Register
                     </a>
                   </Link>
