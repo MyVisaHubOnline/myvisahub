@@ -1,9 +1,14 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Layout from "../components/layout/Layout";
 import FormCards from "../components/FormCards/index";
+import { saveUtmsOnCookies } from "../util/utmsUtils";
 
 function Home() {
+  useEffect(() => {
+    saveUtmsOnCookies();
+  });
+
   return (
     <>
       <Layout title="My Passport Hub">
