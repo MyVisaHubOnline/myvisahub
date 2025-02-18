@@ -3,6 +3,7 @@ const acceptedUtmNames = [
   "utm_medium",
   "utm_campaign",
   "msclkid",
+  "gclid",
 ];
 
 const getUtmsFromUrl = () => {
