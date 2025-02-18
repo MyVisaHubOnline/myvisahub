@@ -24,7 +24,7 @@ export const saveUtmsOnCookies = () => {
     : host;
   const urlUtms = getUtmsFromUrl();
 
-  urlUtms.forEach(
+  urlUtms?.forEach(
     (utm) =>
       (document.cookie = `${utm.name}=${utm.value}; path=/; domain=${domain}`)
   );
