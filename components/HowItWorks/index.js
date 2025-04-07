@@ -17,7 +17,7 @@ const HowItWorks = () => {
               {description}
             </p>
             <Steps steps={steps} />
-            <Button text={cta_text} href={cta_href} />
+            <Button text={cta_text} href={cta_href} self />
           </div>
           <div className="col-lg-7">
             <div className="row">

@@ -36,7 +36,7 @@ const Footer = () => {
                       <a
                         className="btn btn-square"
                         rel="noopener noreferrer"
-                        target="_blank"
+                        target="_self"
                       >
                         Start now
                       </a>
@@ -52,7 +52,7 @@ const Footer = () => {
                       <a
                         className="btn btn-square"
                         rel="noopener noreferrer"
-                        target="_blank"
+                        target="_self"
                       >
                         Get in Touch
                       </a>

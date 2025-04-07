@@ -23,7 +23,7 @@ const Card = ({ form, dark }) => {
         />
         <h2 className="form-card-header-title">{title}</h2>
         <div className="form-card-header-cta">
-          <a href={ctaHref} target="_blank" rel="noopener noreferrer">
+          <a href={ctaHref} target="_self" rel="noopener noreferrer">
             {ctaText}
           </a>
         </div>
