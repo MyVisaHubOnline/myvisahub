@@ -22,7 +22,8 @@ pipeline {
     // }
 
         stage('Build') {
-            steps {            
+            steps { 
+                sh "npx next install"           
                 sh "npx next build"
             }
         }
